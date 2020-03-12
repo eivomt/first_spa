@@ -14,6 +14,7 @@ body {
 }
 
 h1 {
+  margin-top: 40px;
   font-weight: 300;
   color: $light;
 }
@@ -44,11 +45,12 @@ ul.header {
   align-items: center;
   padding-left: 20px;
   border-bottom: 1px solid $dark;
+  z-index: 2;
 }
 
 ul.header li a {
   color: $light;
-  font-weight: bold;
+  font-weight: thin;
   text-decoration: none;
   display: inline-block;
 }
@@ -137,3 +139,46 @@ ul.header li a {
 
   }
 }
+
+circle {
+  position: absolute;
+  bottom: 10vh;
+  border-radius: 50%;
+  background-color: $light;
+  width: 20px;
+  height: 20px;
+  animation: jump 3s infinite cubic-bezier(.39,.09,.28,.88);
+}
+
+@keyframes jump {
+  0% {
+    bottom: 10vh
+  }
+
+  10% {
+    bottom: 11vh;
+  }
+
+
+  40% {
+    bottom: 6vh;
+  }
+
+  100% {
+   bottom: 10vh;
+  }
+}
+
+.push {
+  height: 100vh;
+}
+
+.project-wrapper {
+  height: 40vh;
+  width: 100vw;
+  background-color: $dark;
+  margin-left: -40px;
+  margin-bottom: 60px;
+}
+
+
