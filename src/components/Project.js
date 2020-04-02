@@ -1,4 +1,10 @@
 import React, { Component } from 'react'
+import Icon from "@mdi/react";
+import {
+  mdiPlay,
+  mdiGithub,
+  mdiPlus
+} from '@mdi/js'
 
 class Project extends Component {
 
@@ -17,9 +23,15 @@ class Project extends Component {
             Ro occumquam quodia dolut adigenderrum quame qui blacea vererum rem endanis aspelitin excerna temque nonseque porestesed ea porro volentur solupis magnatur simus, temolorepre voluptati consequ iduciatur? Ficatat emoluptatqui unt volut ex eum fugitius quam apis et voluptatibus sequasperum sin conemporit adisquam eatiori tiasperi coreseque odis doluptatem ipsaper cipsam ut eos excepel maionet volupiti nobis quiae vel ipis eatum adissit, unt.</p>
           </div>
           <div className="buttons">
-            <button className="play"></button>
-            <button className="github"></button>
-            <button className="read-more"></button>
+            <button className="play">
+              <Icon path={mdiPlay} title="play" size={1.5} />
+            </button>
+            <button className="github">
+            <Icon path={mdiPlus} title="readMore" size={1.5} />
+            </button>
+            <button className="read-more">
+            <Icon path={mdiGithub} title="github" size={1.5} />
+            </button>
           </div>
         </div>
         <div className="line-wrapper">
