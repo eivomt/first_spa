@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Logo from '../components/Logo.js';
 import Project from '../components/Project.js';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faLinkedIn} from '@fortawesome/free-regular-svg-icons';
 
 class Home extends Component {
   render() {
