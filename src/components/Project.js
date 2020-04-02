@@ -24,13 +24,13 @@ class Project extends Component {
           </div>
           <div className="buttons">
             <button className="play">
-              <Icon path={mdiPlay} title="play" size={1.5} />
-            </button>
-            <button className="github">
-            <Icon path={mdiPlus} title="readMore" size={1.5} />
+              <Icon className="project-icon" path={mdiPlay} title="play" size={1.5} />
             </button>
             <button className="read-more">
-            <Icon path={mdiGithub} title="github" size={1.5} />
+            <Icon className="project-icon" path={mdiGithub} title="github" size={1.5} />
+            </button>
+            <button className="github">
+            <Icon className="project-icon" path={mdiPlus} title="readMore" size={1.5} />
             </button>
           </div>
         </div>

@@ -52,8 +52,11 @@
     button {
         height: 60px;
         width: 60px;
-        background-color: $light;
+        background-color: $background;
         border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -88,4 +91,8 @@
 .title-line {
     border: .25px solid $light;
     width: 25vw;
+}
+
+.project-icon {
+    color: $light;
 }
