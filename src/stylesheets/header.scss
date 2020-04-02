@@ -16,7 +16,6 @@ ul.header li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
     border-bottom: 1px solid $dark;
   }
   
@@ -31,7 +30,7 @@ ul.header li {
     fill: $light;
     width: 2rem;
     padding: calc(20px - 1rem);
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   
   .nav-text {

@@ -3,12 +3,27 @@ import React, { Component } from "react";
 class Contact extends Component {
   render() {
     return (
-      <div>
-        <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
-        </p>
-      </div>
+      <div className="about-wrapper">
+        <div className="about-left">
+          <div className="title">
+            <h3>Contact</h3>
+            <div className="line-wrapper">
+              <line className="title-line"></line>
+            </div>
+          </div>
+          <div className="about-paragraph">
+            <div className="about-text">
+              <p>I just met you</p>
+              <p>This is crazy</p>
+              <p>Here's my number: 97010070</p>
+              <p>Call me maybe</p>
+            </div>
+          </div>
+        </div>
+        <div className="about-right">
+          <div className="about-image"></div>
+        </div>
+    </div>
     );
   }
 }
