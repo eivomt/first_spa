@@ -6,12 +6,19 @@ import {faLinkedIn} from '@fortawesome/free-regular-svg-icons'
 class Home extends Component {
   render() {
     return (
-      <div className="home-wrapper">
-        <div className="logo-wrapper">
-          <Logo id="Logo" name="logo" />
+      <div>
+        <div className="home-wrapper">
+          <div className="logo-wrapper">
+            <Logo id="Logo" name="logo" />
+          </div>
+          <h1>Eivind Hauge Omtveit</h1>
+          <h3>Full stack developer</h3>
+          <circle />
         </div>
-        <h1>Eivind Hauge Omtveit</h1>
-        <h3>Full stack developer</h3>
+        <div className="push" />
+        <div className="project-wrapper" />
+        <div className="project-wrapper" />
+        <div className="project-wrapper" />
       </div>
 
     );
