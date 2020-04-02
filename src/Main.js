@@ -5,6 +5,7 @@ import {
   HashRouter
 } from "react-router-dom";
 import Home from "./pages/Home";
+import Render from "./pages/Render";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Logo from './components/Logo.js';
@@ -19,13 +20,15 @@ class Main extends Component {
             <ul className="header">
               <li><NavLink exact to="/"><Logo id="header-logo"/></NavLink></li>
               <div className="header-text">
+                  <li><NavLink to="/render" className="nav-text">Render</NavLink></li>
                   <li><NavLink to="/about" className="nav-text">About</NavLink></li>
                   <li><NavLink to="/contact" className="nav-text">Contact</NavLink></li>
               </div>
             </ul>
           </div>
           <div className="content">
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/" component={Home}/>            
+            <Route path="/render" component={Render}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
           </div>
