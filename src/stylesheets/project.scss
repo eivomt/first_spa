@@ -1,0 +1,91 @@
+.project-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 40vw;
+    height: 100vh;
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    padding-top: 10vw;
+    margin: none;
+}
+
+.title {
+    height: 20vh;
+
+    h3 {
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 1vh;
+    }
+}
+
+.paragraph {
+    height: 40vh;
+    width: 40vw;
+    margin-top: -5vh;
+    // top: 30vh;
+    // position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        color: $light;
+    }
+}
+
+.buttons {
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+
+    button {
+        height: 60px;
+        width: 60px;
+        background-color: $light;
+        border-radius: 50%;
+    }
+}
+
+.right {
+    width: 50vw;
+    height: 100vh;
+    background-color: $background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+}
+
+.image {
+    // margin-left: -10vw;
+    // margin-top: -10vw;
+    width: 20vw;
+    height: 20vw;
+    background-color: $light;
+    border-radius: 50%;
+}
+
+.middle-line {
+    border: 1px solid white;
+}
+
+.line-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: -1px;
+}
+.title-line {
+    border: .5px solid white;
+    width: 25vw;
+}

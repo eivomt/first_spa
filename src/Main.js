@@ -4,11 +4,10 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Logo from './components/Logo.js';
-import Navbar from './components/Navbar'
 
 
 class Main extends Component {
@@ -16,7 +15,15 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <Navbar />
+          <div className="header-container">
+            <ul className="header">
+              <li><NavLink exact to="/"><Logo id="header-logo"/></NavLink></li>
+              <div className="header-text">
+                  <li><NavLink to="/about" className="nav-text">About</NavLink></li>
+                  <li><NavLink to="/contact" className="nav-text">Contact</NavLink></li>
+              </div>
+            </ul>
+          </div>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>

@@ -1,0 +1,12 @@
+$background: #222;
+$dark: #3c3c3c;
+$middle: #6c6c6c;
+$light: #ddd;
+$white: #fff;
+
+@import '/main.scss';
+@import '/header.scss';
+@import '/home.scss';
+@import '/contact.scss';
+@import '/about.scss';
+@import '/project.scss'
