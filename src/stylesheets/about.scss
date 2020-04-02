@@ -1,0 +1,67 @@
+
+.about-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+        margin: 0;
+        margin-top: .5rem;
+        color: white;
+        font-weight: 300;
+    }
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-paragraph {
+    height: 40h;
+    width: 40vw;
+    margin-top: -5vh;
+    margin-left: 0;
+
+    p {
+        color: white;
+    }
+}
+
+.about-left {
+    width: 50vw;
+    height: 100vh;
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vw;
+    margin: none;
+}
+
+.about-right {
+    width: 50vw;
+    height: 100vh;
+    background-color: $background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+}
+
+.about-image {
+    width: 20vw;
+    height: 20vw;
+    background-color: $light;
+    border-radius: 50%;
+}

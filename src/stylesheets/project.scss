@@ -77,15 +77,15 @@
 }
 
 .middle-line {
-    border: 1px solid white;
+    border: .5px solid white;
 }
 
 .line-wrapper{
     display: flex;
     flex-direction: column;
-    margin-left: -1px;
+    margin-left: 1px;
 }
 .title-line {
-    border: .5px solid white;
+    border: .25px solid $light;
     width: 25vw;
 }
