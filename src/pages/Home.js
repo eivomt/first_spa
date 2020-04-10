@@ -1,6 +1,9 @@
-import React, { Component } from "react";
+import React, { Component, Suspense } from "react";
 import Logo from '../components/Logo.js';
 import Project from '../components/Project.js';
+import Box from '../components/Box.js';
+import Asset from '../components/Asset.js'
+import { Canvas, useFrame } from 'react-three-fiber'
 
 class Home extends Component {
   render() {
@@ -22,6 +25,7 @@ class Home extends Component {
           <Project title="Sodoku"></Project>
         </div>
       </div>
+      
 
     );
   }
