@@ -5,7 +5,7 @@ import {
   mdiGithub,
   mdiPlus
 } from '@mdi/js'
-import ReactAnime from 'react-animejs'
+import Circle from './Circle.js'
 
 
 class Project extends Component {
@@ -51,6 +51,7 @@ class Project extends Component {
           <h2 className="project-title">{this.props.title}</h2>
           <p className="summary">{this.props.summary}</p>
         </div>
+        <Circle></Circle>
       </div>
       )
   }
