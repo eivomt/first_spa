@@ -11,6 +11,7 @@
     "blend4web": "^18.5.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
+    "react-animejs": "^0.5.4",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",

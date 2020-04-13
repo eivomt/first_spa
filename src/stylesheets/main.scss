@@ -17,6 +17,20 @@ h3 {
   margin-top: 0;
 }
 
+h6 {
+  font-weight: lighter;
+  color: $middle;
+  margin: 0;
+  margin-bottom: 1vh;
+  font-size: 20px;
+}
+
+p {
+  color: $light;
+  margin: 0;
+  font-size: 15px;
+}
+
 .content {
     background-color: $background;
     padding: 5vw;
