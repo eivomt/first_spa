@@ -1,4 +1,4 @@
-import React, { Component, Suspense } from "react";
+import React, { Component } from "react";
 import Logo from '../components/Logo.js';
 import Project from '../components/Project.js';
 

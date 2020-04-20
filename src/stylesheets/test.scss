@@ -1,0 +1,45 @@
+.test-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-inner-container {
+    position: relative;
+}
+
+.testCircle {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20%;
+}
+
+.oCircle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iCircle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.animatedIcon {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -5px;
+    left: 146px
+}
