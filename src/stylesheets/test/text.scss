@@ -1,0 +1,27 @@
+.title {
+    display: flex;
+    justify-content: center;
+    height: 22px;
+    margin-top: 7vh;
+}
+
+.typed {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.project-description {
+    margin-top: 7vh;
+    padding-right: 30vw;
+    padding-left: 30vw;
+}
+
+.motion-paragraph {
+    color: #222;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.3rem;
+}

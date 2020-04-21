@@ -14,7 +14,6 @@ class Home extends Component {
             <h1>Eivind Hauge Omtveit</h1>
             <h3>Full stack developer</h3>
           </div>
-          <circle></circle>
         </div>
         <div className="bottom-wrapper">
           <Project title="Plus U" summary="This is a web application that helps people find or create events. The goal of the project was to enable people who suffer from loneliness to easily connect with strangers and make new friends." features={["Registration", "Login", "Geocoding"]} technologies={["Ruby", "Rails", "postgreSQL", "Javascript", "HTML5", "CSS", "Sass" ]}github="https://github.com/eivomt/loner_app"></Project>

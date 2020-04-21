@@ -1,0 +1,67 @@
+.project-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.first-motion-container {
+    position: relative;
+}
+
+.motion-container {
+    position: absolute;
+    height: 452px;
+    width: 452px;
+}
+
+.moving-icon-top {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: $background;
+    position: absolute;
+    top: -8px;
+    left: 276.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moving-icon-bottom {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: $background;
+    position: absolute;
+    top: 0px;
+    left: 131px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-ring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.inner-ring {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.top-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

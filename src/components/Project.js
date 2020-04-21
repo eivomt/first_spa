@@ -14,12 +14,7 @@ class Project extends Component {
   render () {
    
 
-    let features = Array.from(this.props.features)
     
-    let featuresList = features.map((item) => (
-      <li>{item}</li>
-    ))
-
     let technologies = Array.from(this.props.technologies)
     
     let technologiesList = technologies.map((item) => (
@@ -37,7 +32,6 @@ class Project extends Component {
               <Icon className="project-icon" path={mdiPlay} title="play" size={1.5}></Icon>
           </button>
           <button className="github">
-              <a ></a>
             <Icon className="project-icon" path={mdiGithub} title="github" size={1.5}></Icon>
           </button>
           <button className="readMore">
