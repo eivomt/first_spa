@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Typed from 'react-typed'
 import { motion } from 'framer-motion'
 
 class Text extends Component {
@@ -24,10 +23,10 @@ class Text extends Component {
                 animate="active"
                 transition={{
                     duration: 4,
-                    delay: 3,
+                    delay: 2.3,
                     ease: "easeInOut"
                 }}>
-                    Before we begin, take a quick look at the code for the top mask frame. You’ll see that it has been set to a height slightly larger than the font size 26.
+                    This is a web application that helps people find or create events. The goal of the project was to enable people who suffer from loneliness to easily connect with strangers and make new friends.
                 </motion.div>
             </div>
         )

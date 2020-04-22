@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.11",
     "@mdi/js": "^5.0.45",
     "@mdi/react": "^1.4.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^7.1.2",
     "blend4web": "^18.5.0",
     "framer-motion": "^1.10.3",
+    "material-ui": "^0.20.2",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-animejs": "^0.5.4",

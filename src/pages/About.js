@@ -8,6 +8,7 @@ class About extends Component {
           <div className="title">
             <h3>About</h3>
             <div className="line-wrapper">
+              <line className="title-line"></line>
             </div>
           </div>
           <div className="about-paragraph">
